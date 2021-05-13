@@ -1,0 +1,26 @@
+{
+  "name": "musicbotlocal",
+  "version": "1.0.0",
+  "description": "discord musicBot localfile play",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kajj8808/discordMusicBotLocalFile.git"
+  },
+  "author": "kajj8808 [sss003366@naver.com]",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kajj8808/discordMusicBotLocalFile/issues"
+  },
+  "homepage": "https://github.com/kajj8808/discordMusicBotLocalFile#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.0",
+    "discord.js": "^12.5.3",
+    "ffmpeg-static": "^4.3.0",
+    "fs": "0.0.1-security",
+    "opusscript": "0.0.8"
+  }
+}
